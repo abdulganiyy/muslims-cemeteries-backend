@@ -12,7 +12,7 @@ const usersRoutes = require("./routes/usersRoutes");
 const cemeteriesRoutes = require("./routes/cemeteriesRoutes");
 const countriesRoutes = require("./routes/CountriesRoutes");
 
-const db_url = process.env.db;
+const db_url = process.env.db_prod;
 
 mongoose
   .connect(db_url, {

@@ -6,7 +6,7 @@ const GridFsStorage = require("multer-gridfs-storage");
 const Grid = require("gridfs-stream");
 let crypto = require("crypto");
 
-const db_url = process.env.db;
+const db_url = process.env.db_prod;
 
 const conn = mongoose.createConnection(db_url, {
   useNewUrlParser: true,
